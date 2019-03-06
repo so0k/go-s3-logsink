@@ -49,7 +49,7 @@ Used in kube_filter
     K8S-Logging.Exclude On
 ```
 
-Configure the output filter to pass tag as `FLUET-TAG` Header for go-s3-logsink HTTP Webserver
+Configure the output filter to pass tag as `FLUENT-TAG` Header for go-s3-logsink HTTP Webserver
 
 ```
 [OUTPUT]
@@ -61,4 +61,3 @@ Configure the output filter to pass tag as `FLUET-TAG` Header for go-s3-logsink 
     URI            /
     header_tag     FLUENT-TAG
 ```
-# go-s3-logsink
